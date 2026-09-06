@@ -1,8 +1,7 @@
-﻿
-Imports System
+﻿Imports System
 
 Module Ex2
-    Sub Main()
+    Sub isPolidromeChechk()
         Dim text As String = Console.ReadLine()
         Dim isPolidrome As Boolean = True
 
@@ -11,7 +10,7 @@ Module Ex2
                 isPolidrome = False
                 Exit For
             End If
-        Next
+        Next 
 
         Console.WriteLine(isPolidrome)
     End Sub

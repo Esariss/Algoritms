@@ -1,0 +1,41 @@
+﻿ALGORITHM ZeroMinusOrPlus
+    INPUT: Integer a 
+    START:
+    1. IF a == 0 THEN
+    2.     OUTPUT "a is 0"
+    3. ELSE IF a > 0 THEN
+    4.     OUTPUT "a is +"
+    5. ELSE a < 0 THEN 
+    6.   OUTPUT "a is -"
+    7. END IF
+    END
+   
+ALGORITHM PlusElementsInArray
+    INPUT: Array a
+    OUTPUT: Integer count
+    START
+    FOR i In a Do
+        IF i > 0 THEN 
+            count = count + 1
+        END IF
+    END FOR
+    PRINT count
+    
+    
+FUNCTION Factorial(n)
+    result as Integer = 1
+
+    FOR i FROM  1 TO n
+        result <- result * i
+    END FOR
+
+    RETURN result
+END FUNCTION
+
+FUNCTION Factorial(n)
+    IF n = 0 OR n = 1 THEN
+        RETURN 1
+    END IF
+
+    RETURN n * Factorial(n - 1)
+END FUNCTION

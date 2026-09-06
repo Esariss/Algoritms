@@ -1,7 +1,7 @@
 ﻿Imports System
 
 Module Ex
-    Sub Main()
+    Sub MaxInThreeNumbers()
         Dim a As Integer = Integer.Parse(Console.ReadLine())
         Dim b As Integer = Integer.Parse(Console.ReadLine())
         Dim c As Integer = Integer.Parse(Console.ReadLine())
