@@ -1,0 +1,14 @@
+﻿ALGORITHM FindDublicatInArray
+    INPUT: Array a
+    OUTPUT: Boolean hasDublicate
+    hasDublicate <- False
+    START
+    1. FOR Ineger i = 0 to a.Length - 1 DO
+    2.     FOR Integer j = i + 1 to a.length DO
+    3.     IF a[j] == a[i] THEN
+    4.         hasDublicate = True
+    5.         Break
+    6.     END FOr
+    7. END FOR
+    8. OUTPUT hasDublicate
+    END
