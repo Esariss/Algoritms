@@ -1,0 +1,36 @@
+﻿ALGORITHM MaxOfThree
+    INPUT Integer a, Integer b, Integer c
+    OUTPUT Integer max   
+    
+    max = a
+    
+    START
+    1. If (b>max){
+    2 .    max = b
+    3 .}
+    
+    4. If (c > max){
+    5.     max = c
+    6. }
+
+    7. OUTPUT max
+    END
+    
+    
+ALGORITHM IsPalindrome
+    INPUT String text
+    OUTPUT Boolean isPalindrome
+
+    isPalindrome = TRUE
+
+    START
+    1. For i = 0 TO LENGTH(text) / 2 - 1
+    2.     If text[i] != text[LENGTH(text) - 1 - i] {
+    3.         isPalindrome = FALSE
+    4.         Break
+    5.     }
+    6.        End If
+    7. End For 
+
+    8. OUTPUT isPalindrome
+    END
