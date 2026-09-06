@@ -31,7 +31,7 @@ Module Ex5
         Else
             Console.WriteLine(FactorialCicle(n))
         End If
-        
+         
         
     End Sub
 End Module
