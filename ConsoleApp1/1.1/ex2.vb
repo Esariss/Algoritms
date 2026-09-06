@@ -11,7 +11,7 @@ Module Ex2
                 isPolidrome = False
                 Exit For
             End If
-        Next
+        Next 
 
         Console.WriteLine(isPolidrome)
     End Sub
